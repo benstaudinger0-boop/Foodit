@@ -158,8 +158,20 @@
           { name: "Blooket Warrior", img: "https://i.postimg.cc/htNhD5Z3/Blooket-Warrior.gif", rarity: "heavenly", chance: 10 },
         ];
 
-     const spookyPack = [ 
-      { name: "Black Cat", img: "https://i.postimg.cc/kgP3RMB0/blackCat.png", rarity: "chroma", chance: 10 },
+  const spookyPack = [ 
+      { name: "Devil Milk", img: "https://i.postimg.cc/tYCRHrfD/devil-Milk.png", rarity: "uncommon", chance: 30 },
+      { name: "Mummy Monster", img: "https://i.postimg.cc/nM1Vg8dC/Mummy-Monster-3.png", rarity: "uncommon", chance: 25 },
+      { name: "Caramel Ghost", img: "https://i.postimg.cc/SxwSvKMx/Caramel-Ghost.png", rarity: "rare", chance: 20 },
+      { name: "Pumpkin Cat", img: "https://i.postimg.cc/F1vsTFVM/Pumpkin-Cat.png", rarity: "rare", chance: 10 },
+      { name: "Pumpkin Pie", img: "https://i.postimg.cc/kRsHcvvg/Pumpkin-Pie-1.png", rarity: "epic", chance: 5 },
+      { name: "Devil Narwhal", img: "https://i.postimg.cc/BjjqjjJK/Devil-Narwhal-1.png", rarity: "epic", chance: 4 },
+      { name: "Witch Pot", img: "https://i.postimg.cc/GhxbFrGw/witchPot.png", rarity: "epic", chance: 4 },
+      { name: "Bot Ghost", img: "https://i.postimg.cc/QH48NQZD/Bot-Ghost-2.png", rarity: "legendary", chance: 3 },
+      { name: "Vampire Baby Shark", img: "https://i.postimg.cc/QdLmk17q/Untitled-design-17.png", rarity: "chroma", chance: 0.07 },
+      { name: "Black Cat", img: "https://i.postimg.cc/kgP3RMB0/blackCat.png", rarity: "chroma", chance: 0.07 },
+      { name: "Zombie Astronaut", img: "https://i.postimg.cc/Z5bq84bx/Zombie-Astronaut.webp", rarity: "chroma", chance: 0.07 },
+      { name: "Haunted Jack o Lantern", img: "https://i.postimg.cc/Fdj8f4fc/hauntedjacko-Lantern.png", rarity: "unique", chance: 0.04 },
+      { name: "Spooky Bot Ghost", img: "https://i.postimg.cc/63SV6Tc6/Spooky-Mega-Ghost-1.gif", rarity: "mystical", chance: 0.003 },
     ];
 
     const blizzardPack = [ 
