@@ -229,7 +229,7 @@
       { name: "Golden Pumpkin Pie", img: "https://i.postimg.cc/XBdJfYWW/Pumpkin-Pie-1.webp", rarity: "chroma", chance: 10 },
     ];
 
-  const packs = { lovely: lovelyPack western: westernPack, frog: frogPack, honor: honorPack, cle: clePack, new: newPack, american: americanPack, token: tokenPack, milk: milkPack, space: spacePack, school: schoolPack, spooky: spookyPack, thanksgiving: thanksgivingPack, blizzard: blizzardPack, og: ogPack, donut: donutPack, food: foodPack };
+  const packs = { lovely: lovelyPack, western: westernPack, frog: frogPack, honor: honorPack, cle: clePack, new: newPack, american: americanPack, token: tokenPack, milk: milkPack, space: spacePack, school: schoolPack, spooky: spookyPack, thanksgiving: thanksgivingPack, blizzard: blizzardPack, og: ogPack, donut: donutPack, food: foodPack };
 
   // UI setup
   const ui = document.createElement('div');
