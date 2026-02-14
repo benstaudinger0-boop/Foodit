@@ -62,8 +62,7 @@
 
     const lovelyPack = [
        { name: "Lovely Cat", img: "https://i.postimg.cc/YSHb6qQB/Lovely-Cat.png", rarity: "chroma", chance: 10 },
-      { name: "Lovely Bot", img: "https://i.postimg.cc/wjvNR1W2/lovelybot.png", rarity: "chroma", chance: 10 },
-      { name: "Lovely Dog", img: "https://i.postimg.cc/L4x6YNG0/lovelydog.png", rarity: "chroma", chance: 10 },
+      { name: "Lovely Bot", img: "https://i.postimg.cc/wjvNR1W2/lovelybot.png", rarity: "chroma", chance: 10 },{ name: "Lovely Dog", img: "https://i.postimg.cc/L4x6YNG0/lovelydog.png", rarity: "chroma", chance: 10 },
       { name: "Lovely Egg", img: "https://i.postimg.cc/jSbsBmfz/lovelyegg.png", rarity: "chroma", chance: 10 },
       { name: "Lovely Milk", img: "https://i.postimg.cc/T34tKMcW/lovelymilk.png", rarity: "chroma", chance: 10 },
       { name: "Lovely Goldfish", img: "https://i.postimg.cc/k4QrNXjL/lovelygoldfish.png", rarity: "chroma", chance: 10 },
@@ -129,8 +128,7 @@
       { name: "Pencil Pouch", img: "https://i.postimg.cc/wtnGpSt4/pencil-Pouch.png", rarity: "uncommon", chance: 10 },
       { name: "Notebook Paper", img: "https://i.postimg.cc/y3yQ0xL2/notebook-Paper.png", rarity: "rare", chance: 10 },
       { name: "Note Pad", img: "https://i.postimg.cc/rdDP78pt/notePad.png", rarity: "rare", chance: 10 },
-      { name: "Markers", img: "https://i.postimg.cc/4n6FD2Xw/markers.png", rarity: "epic", chance: 10 },
-      { name: "Crayons", img: "https://i.postimg.cc/Vd4Z6SrC/crayons.png", rarity: "epic", chance: 10 },
+      { name: "Markers", img: "https://i.postimg.cc/4n6FD2Xw/markers.png", rarity: "epic", chance: 10 },{ name: "Crayons", img: "https://i.postimg.cc/Vd4Z6SrC/crayons.png", rarity: "epic", chance: 10 },
       { name: "Teachers Cup", img: "https://i.postimg.cc/8JWnPtMp/teachers-Cup.png", rarity: "legendary", chance: 10 },
       { name: "Chalkboard", img: "https://i.postimg.cc/H8gvJX9Q/chalkboard.png", rarity: "legendary", chance: 10 },
       { name: "Teachers Desk", img: "https://i.postimg.cc/tsScr19j/teachers-Desk.png", rarity: "chroma", chance: 10 },
