@@ -15,6 +15,7 @@
   const PACK_COST = {
     milk: 1,
     western: 1,
+    lovely: 1,
     space: 1,
     frog: 1,
     new: 1,
@@ -57,6 +58,19 @@
       { name: "Owl Sheriff", img: "https://ac.blooket.com/marketassets/blooks/owlsheriff.svg", rarity: "chroma", chance: 10 },
       { name: "Desert Snow Globe", img: "https://i.postimg.cc/5QFCGDX3/desert-Snowglobe.png", rarity: "unique", chance: 10 },
       { name: "Sheriff Blooket Warrior", img: "https://i.postimg.cc/7fPZrZrq/Sheriff-Blooket-Warrior-YT.gif", rarity: "heavenly", chance: 10 },
+    ];
+
+    const lovelyPack = [
+       { name: "Lovely Cat", img: "https://i.postimg.cc/YSHb6qQB/Lovely-Cat.png", rarity: "chroma", chance: 10 },
+      { name: "Lovely Bot", img: "https://i.postimg.cc/wjvNR1W2/lovelybot.png", rarity: "chroma", chance: 10 },
+      { name: "Lovely Dog", img: "https://i.postimg.cc/L4x6YNG0/lovelydog.png", rarity: "chroma", chance: 10 },
+      { name: "Lovely Egg", img: "https://i.postimg.cc/jSbsBmfz/lovelyegg.png", rarity: "chroma", chance: 10 },
+      { name: "Lovely Milk", img: "https://i.postimg.cc/T34tKMcW/lovelymilk.png", rarity: "chroma", chance: 10 },
+      { name: "Lovely Goldfish", img: "https://i.postimg.cc/k4QrNXjL/lovelygoldfish.png", rarity: "chroma", chance: 10 },
+      { name: "Love Potion", img: "https://i.postimg.cc/MKcDgrwv/lovepotion.png", rarity: "chroma", chance: 10 },
+      { name: "Lovely Narwhal", img: "https://i.postimg.cc/YCMxj2gp/lovelynarwhal.png", rarity: "chroma", chance: 10 },
+      { name: "Lovely Crocodile", img: "https://i.postimg.cc/DzzHJPGt/lovelycrocodile.png", rarity: "chroma", chance: 10 },
+      { name: "Chocolate Heart", img: "https://i.postimg.cc/d37J2Kyt/chocolateheart.png", rarity: "chroma", chance: 10 },
     ];
 
   const milkPack = [
@@ -215,7 +229,7 @@
       { name: "Golden Pumpkin Pie", img: "https://i.postimg.cc/XBdJfYWW/Pumpkin-Pie-1.webp", rarity: "chroma", chance: 10 },
     ];
 
-  const packs = { western: westernPack, frog: frogPack, honor: honorPack, cle: clePack, new: newPack, american: americanPack, token: tokenPack, milk: milkPack, space: spacePack, school: schoolPack, spooky: spookyPack, thanksgiving: thanksgivingPack, blizzard: blizzardPack, og: ogPack, donut: donutPack, food: foodPack };
+  const packs = { lovely: lovelyPack western: westernPack, frog: frogPack, honor: honorPack, cle: clePack, new: newPack, american: americanPack, token: tokenPack, milk: milkPack, space: spacePack, school: schoolPack, spooky: spookyPack, thanksgiving: thanksgivingPack, blizzard: blizzardPack, og: ogPack, donut: donutPack, food: foodPack };
 
   // UI setup
   const ui = document.createElement('div');
@@ -240,6 +254,7 @@
       <select id="cheat-pack" style="width: 100%; padding: 6px;">
         <option value="milk">Milk</option>
         <option value="western">Western</option>
+        <option value="lovely">Lovely</option>
         <option value="frog">Frog</option>
         <option value="honor">Honor</option>
         <option value="token">Token</option>
